@@ -9,20 +9,22 @@
 
   <PropertyGroup>
     <PackageId>Jacobi.VisualStudio.Analyzers</PackageId>
-    <PackageVersion>1.0.0.0</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <Authors>Marc Jacobi</Authors>
-    <PackageLicenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</PackageLicenseUrl>
-    <PackageProjectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</PackageProjectUrl>
-    <PackageIconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</PackageIconUrl>
-    <RepositoryUrl>http://REPOSITORY_URL_HERE_OR_DELETE_THIS_LINE</RepositoryUrl>
+    <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/obiwanjacobi/VisualStudio.Analyzers</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>Jacobi.VisualStudio.Analyzers</Description>
-    <PackageReleaseNotes>Summary of changes made in this release of the package.</PackageReleaseNotes>
+    <Description>A collection of C# code analyzers for Visual Studio.</Description>
+    <PackageReleaseNotes>Initial Release.</PackageReleaseNotes>
     <Copyright>Copyright 2021 Jacobi Software</Copyright>
     <PackageTags>Jacobi.VisualStudio.Analyzers, analyzers</PackageTags>
     <NoPackageAnalysis>true</NoPackageAnalysis>
 
     <TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage);_AddAnalyzersToOutput</TargetsForTfmSpecificContentInPackage>
+
+    <Product>Visual Studio Analyzers by Jacobi Software</Product>
+
+    <Company>Jacobi Software</Company>
   </PropertyGroup>
 
   <ItemGroup>
