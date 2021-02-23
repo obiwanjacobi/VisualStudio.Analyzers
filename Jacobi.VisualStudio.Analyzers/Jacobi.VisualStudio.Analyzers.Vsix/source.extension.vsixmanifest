@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Jacobi.VisualStudio.Analyzers.b5a6e13b-14fd-4e95-aac5-d78f45e4d75b" Version="1.0" Language="en-US" Publisher="Marc"/>
+    <DisplayName>Jacobi.VisualStudio.Analyzers</DisplayName>
+    <Description xml:space="preserve">A collection of C# code analyzers for Visual Studio.</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,)" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="Jacobi.VisualStudio.Analyzers" Path="|Jacobi.VisualStudio.Analyzers|"/>
+    <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="Jacobi.VisualStudio.Analyzers" Path="|Jacobi.VisualStudio.Analyzers|"/>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="Jacobi.VisualStudio.Analyzers.CodeFixes" Path="|Jacobi.VisualStudio.Analyzers.CodeFixes|"/>
+    <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="Jacobi.VisualStudio.Analyzers.CodeFixes" Path="|Jacobi.VisualStudio.Analyzers.CodeFixes|"/>
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[15.0,)" DisplayName="Roslyn Language Services" />
+  </Prerequisites>
+</PackageManifest>

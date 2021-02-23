@@ -1,0 +1,1 @@
+nuget push .\bin\Debug\Jacobi.VisualStudio.Analyzers.1.0.0.nupkg -src LocalPackageTest
